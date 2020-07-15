@@ -2,7 +2,7 @@
 
 This is an official PyTorch implementation of the Att-McLSTM model presented in the following paper:
 
->  Attention-based recurrent neural network for influenza epidemic prediction
+>  [Attention-based recurrent neural network for influenza epidemic prediction](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-019-3131-8)
 
 ## General
 

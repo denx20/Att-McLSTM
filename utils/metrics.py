@@ -80,11 +80,11 @@ test_X, test_y = generate_data(temp)
 regressor.fit(train_X, train_y, batch_size=BATCH_SIZE, steps=TRAINING_STEPS)
 predicted = np.array([pred for pred in regressor.predict(test_X)])
 
-'''绘制反标准化之前的真实值与预测值对比图'''
+
 plt.figure()
-plt.plot(predicted, label='预测值')
-plt.plot(test_y, label='真实值')
-plt.title('反标准化之前')
+plt.plot(predicted, label='Prediction')
+plt.plot(test_y, label='Ground Truth')
+plt.title('inverse transform')
 plt.legend()
 plt.show()
 

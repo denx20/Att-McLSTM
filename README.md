@@ -9,6 +9,8 @@ This is an official PyTorch implementation of the Att-McLSTM model presented in 
 Project directories:
 
 * `data`: data analysis and pre-processing
+* `model`: source code
+* 
 
 
 

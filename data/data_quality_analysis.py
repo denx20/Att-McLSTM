@@ -22,7 +22,7 @@ from keras.layers.core import *
 import random
 import time
 
-path = 'C:\\Users\\HP\\Desktop\\实验\\流感疫情分析\\工作进展\\2_LSTM预测\\4_lstm_for_structure2\\content'
+path = ''
 files= os.listdir(path)
 num = 9
 print(files[num])

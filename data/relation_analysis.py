@@ -21,7 +21,7 @@ import random
 #constant
 total_week = 468
 
-filename = 'C:\\Users\\HP\\Desktop\\实验\\流感疫情分析\\工作进展\\2_LSTM预测\\1_lstm_for_alpha\\lstm_for_alpha_data_content_old.xlsx'
+filename = ''
 wb = load_workbook(filename=filename)
 ws = wb.active 
 temp = []

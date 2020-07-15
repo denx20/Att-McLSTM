@@ -24,6 +24,15 @@ conda activate att-mclstm
 
 Note that this requires CUDA 9.2. Depending on your cuda version, you may want to install previous versions of TensorFlow.  See [here](https://www.tensorflow.org/versions).
 
+## Reproducibility
+
+The results of all functions and training loop match the results demonstrated in the paper. One can check it out and run to test:
+
+```
+python ./data/sum_data.py
+python ./model/att_multi_channel_lstm.py
+```
+
 ## Misc
 
 ### Citation

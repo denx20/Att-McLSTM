@@ -22,7 +22,7 @@ conda create -n att-mclstm python=3.6
 conda activate att-mclstm
 ```
 
-Note that this requires CUDA 9.2. Depending on your cuda version, you may want to install previous versions of PyTorch.  See [here](https://pytorch.org/get-started/previous-versions/).
+Note that this requires CUDA 9.2. Depending on your cuda version, you may want to install previous versions of TensorFlow.  See [here](https://pytorch.org/get-started/previous-versions/).
 
 ## Misc
 

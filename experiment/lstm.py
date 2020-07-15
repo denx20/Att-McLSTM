@@ -25,7 +25,7 @@ WEEK_LENGTH = 6
 
 ########################################
 #load content data
-filename = 'C:\\Users\\HP\\Desktop\\实验\\流感疫情分析\\工作进展\\2_LSTM预测\\1_lstm_for_alpha\\lstm_for_alpha_data_content.xlsx'
+filename = ''
 wb = load_workbook(filename=filename)
 ws = wb.active 
 temp = []
@@ -53,7 +53,7 @@ test_X = np.array(test_X)
 
 #####################################
 #load label data
-filename = 'C:\\Users\\HP\\Desktop\\实验\\流感疫情分析\\工作进展\\2_LSTM预测\\1_lstm_for_alpha\\lstm_for_alpha_data_label.xlsx'
+filename = ''
 wb = load_workbook(filename=filename)
 ws = wb.active 
 temp = []
@@ -126,9 +126,6 @@ plt.plot(pre_y, color = 'red')
 
 np.savetxt('test_yy.csv', test_y, delimiter = ',')
 np.savetxt('pre_yy.csv', pre_y, delimiter = ',')
-
-#test_yy_matrix = np.loadtxt(open("C:\\Users\\HP\Desktop\\实验\\流感疫情分析\\工作进展\\3_对比实验\\3_lstm\\test1\\test_yy.csv","rb"),delimiter=",")
-#pre_yy_matrix = np.loadtxt(open("C:\\Users\\HP\Desktop\\实验\\流感疫情分析\\工作进展\\3_对比实验\\3_lstm\\test1\\pre_yy.csv","rb"),delimiter=",")
 
 '''
 #disorder prediction

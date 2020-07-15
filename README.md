@@ -10,7 +10,7 @@ Project directories:
 
 * `data`: data analysis and pre-processing
 * `model`: source code
-* `experiment`: comparative experiment and ablation study
+* `experiment`: comparative experiments and ablation study
 * `utils`: some useful scripts for logging and showing demos
 
 ## Dependencies

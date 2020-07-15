@@ -31,7 +31,7 @@ AREA_NUM = 10
 #########################################
 #load content data
 pre_XX = []
-path = 'C:\\Users\\HP\\Desktop\\实验\\流感疫情分析\\工作进展\\2_LSTM预测\\4_lstm_for_structure2\\content'
+path = ''
 files= os.listdir(path)
 for file in files:
     filename = path + '\\' + file
@@ -48,7 +48,7 @@ for file in files:
 
 #load weather data
 pre_XX_wea = []
-filename = 'C:\\Users\\HP\\Desktop\\实验\\流感疫情分析\\工作进展\\2_LSTM预测\\4_lstm_for_structure2\\weather_data.xlsx'
+filename = ''
 wb = load_workbook(filename=filename)
 ws = wb.active 
 temp1 = []
@@ -61,7 +61,7 @@ temp2 = temp1[1:]
 pre_XX_wea = temp2
 
 #load label
-filename = 'C:\\Users\\HP\\Desktop\\实验\\流感疫情分析\\工作进展\\2_LSTM预测\\4_lstm_for_structure2\\label.xlsx'
+filename = ''
 wb = load_workbook(filename=filename)
 ws = wb.active 
 #load data
@@ -212,6 +212,3 @@ plt.plot(q[370:461], color = 'red')
 
 np.savetxt('test_yy.csv', p, delimiter = ',')
 np.savetxt('pre_yy.csv', q, delimiter = ',')
-
-#test_yy_matrix = np.loadtxt(open("C:\\Users\\HP\Desktop\\实验\\流感疫情分析\\工作进展\\3_对比实验\\2_multi_channel_lstm\\test1\\test_yy.csv","rb"),delimiter=",")
-#pre_yy_matrix = np.loadtxt(open("C:\\Users\\HP\Desktop\\实验\\流感疫情分析\\工作进展\\3_对比实验\\2_multi_channel_lstm\\test1\\pre_yy.csv","rb"),delimiter=",")

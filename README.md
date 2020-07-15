@@ -11,8 +11,7 @@ Project directories:
 * `data`: data analysis and pre-processing
 * `model`: source code
 * `experiment`: comparative experiment and ablation study
-
-- `utils`: some useful scripts for logging and showing demos
+* `utils`: some useful scripts for logging and showing demos
 
 ## Dependencies
 
@@ -23,5 +22,5 @@ conda create -n att-mclstm python=3.6
 conda activate att-mclstm
 ```
 
-
+Note that this requires CUDA 9.2. Depending on your cuda version, you may want to install previous versions of PyTorch.  See [here](https://pytorch.org/get-started/previous-versions/).
 
